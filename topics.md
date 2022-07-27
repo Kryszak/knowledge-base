@@ -94,3 +94,7 @@ https://www.baeldung.com/java-stream-last-element
 
 ## String concatenation
 https://stackoverflow.com/a/7817989
+
+## Kotlin sequences
+https://www.baeldung.com/kotlin/sequences
+
