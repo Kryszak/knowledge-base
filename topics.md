@@ -95,6 +95,10 @@ https://www.baeldung.com/java-stream-last-element
 ## String concatenation
 https://stackoverflow.com/a/7817989
 
+## StackOverflowException
+https://stackoverflow.com/a/214758
+How to quickluy get SO - not terminated recursive function
+
 ## Kotlin sequences
 https://www.baeldung.com/kotlin/sequences
 
