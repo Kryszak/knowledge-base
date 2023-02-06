@@ -3,6 +3,7 @@ http://www.javaexpress.pl/article/show/Transakcje_w_systemach_Java_Enterprise_Wp
 
 ## JEE vs Spring vs Spring Boot
 https://www.quora.com/What-are-the-differences-between-Java-EE-and-Spring
+
 https://www.quora.com/What-is-the-difference-between-Spring-Boot-and-the-Spring-framework
 
 ## JPA
@@ -16,6 +17,7 @@ https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/
 
 ## Java 7 vs 8 vs 9/10
 https://howtodoinjava.com/java-version-wise-features-history/
+
 https://softwareengineering.stackexchange.com/questions/193630/summary-of-differences-between-java-versions
 
 ## ForkJoinPool
@@ -35,6 +37,7 @@ https://dzone.com/articles/java-memory-management
 
 ## Java - pass by reference of value
 Java is always pass by value
+
 https://www.javaworld.com/article/2077424/learn-java/learn-java-does-java-pass-by-reference-or-pass-by-value.html
 
 ## ArrayList implementation, LinkedList
@@ -69,6 +72,7 @@ https://stackoverflow.com/a/7817989
 
 ## StackOverflowException
 https://stackoverflow.com/a/214758
+
 How to quickly get SO - not terminated recursive function
 
 ## Hashset vs Treeset
