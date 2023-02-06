@@ -108,3 +108,6 @@ https://www.baeldung.com/kotlin/sequences
 ## Hashset vs Treeset
 https://www.baeldung.com/java-hashset-vs-treeset
 
+## Sql Joins
+https://www.sqlshack.com/internals-of-physical-join-operators-nested-loops-join-hash-match-join-merge-join-in-sql-server/
+
