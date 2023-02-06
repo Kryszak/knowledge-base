@@ -1,5 +1,8 @@
 # Programming principles
 
+## Design patterns
+https://sourcemaking.com/design_patterns
+
 ## KISS - Keep It Simple, Stupid
 It means you should be writing code as simple as possible. 
 Don't get caught up in trying to be overly clever or showing off with a paragraph of advanced code.
