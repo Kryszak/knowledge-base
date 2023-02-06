@@ -105,3 +105,6 @@ How to quickluy get SO - not terminated recursive function
 ## Kotlin sequences
 https://www.baeldung.com/kotlin/sequences
 
+## Hashset vs Treeset
+https://www.baeldung.com/java-hashset-vs-treeset
+
