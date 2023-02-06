@@ -1,6 +1,6 @@
 # Java dev recruitment knowledge base
 
-[Programming principles](./pricinples.md)
+[Programming principles](./principles.md)
 
 [Topics](./topics.md)
 
