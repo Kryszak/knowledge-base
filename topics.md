@@ -33,6 +33,9 @@ https://stackoverflow.com/questions/17976689/do-i-need-to-specify-on-delete-no-a
 fat jar - jar with all dependency
 war - contains web app
 
+## hashCode(), equals()
+https://bulldogjob.com/readme/how-not-to-break-your-app-with-hashcode-and-equals
+
 ## Checked vs unchecked exceptions
 https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/
 
