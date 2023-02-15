@@ -15,3 +15,6 @@ https://en.wikipedia.org/wiki/Isolation_(database_systems)
 
 ## Sql Joins
 https://www.sqlshack.com/internals-of-physical-join-operators-nested-loops-join-hash-match-join-merge-join-in-sql-server/
+
+## JPA mapping strategies
+https://www.baeldung.com/hibernate-inheritance
