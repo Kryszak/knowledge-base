@@ -1,3 +1,6 @@
+## concurrency
+https://www.baeldung.com/java-concurrency
+
 ## JEE transactions
 http://www.javaexpress.pl/article/show/Transakcje_w_systemach_Java_Enterprise_Wprowadzenie
 
