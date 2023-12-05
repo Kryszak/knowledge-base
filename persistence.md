@@ -6,6 +6,7 @@ https://www.lifewire.com/abandoning-acid-in-favor-of-base-1019674
 
 ## Indexes
 https://en.wikipedia.org/wiki/Database_index
+https://vertabelo.com/blog/database-index-types/
 
 ## Locks
 https://medium.com/inspiredbrilliance/what-are-database-locks-1aff9117c290
