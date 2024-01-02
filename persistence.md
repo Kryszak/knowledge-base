@@ -28,3 +28,9 @@ https://www.sqlshack.com/internals-of-physical-join-operators-nested-loops-join-
 
 ## JPA mapping strategies
 https://www.baeldung.com/hibernate-inheritance
+
+## Indexes
+https://www.postgresql.org/docs/current/indexes.html
+
+## DB concurrency
+https://www.postgresql.org/docs/current/mvcc.html

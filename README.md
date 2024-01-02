@@ -13,3 +13,5 @@
 [Messaging](messaging.md)
 
 [CI/CD](cicd.md)
+
+[Architecture](./architecture.md)
