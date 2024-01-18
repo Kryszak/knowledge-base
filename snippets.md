@@ -16,7 +16,7 @@ class Scratch {
         Integer third = 5000;
         Integer fourth = 5000;
 
-        System.out.println("First == second " + (third == fourth)); // false
+        System.out.println("Third == fourth " + (third == fourth)); // false
     }
 }
 ```
