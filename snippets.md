@@ -59,20 +59,22 @@ import java.util.Set;
 import java.util.Stack;
 
 /*
-W stringu możesz zadeklarować 3 rodzaje grup () [] {}
-Grupy mogą się zagnieżdżać, ale muszą być odpowiednio zamknięte i otwarte
-    poprawne:
+String may contain 3 types of groups: () [] {}
+Groups can be nested, but needs to be correctly opened and closed
+
+Examples of correct grouping:
     ()
     ([])
     ([]{})
     [({})()]
-    niepoprawne:
+
+Examples of incorrect grouping:
     )
     )[]
     (])
     ({}])
 
-Zaimplementuj metodę, która sprawdza czy podany string ma git grupy, testy już napisane
+Implement method to check if provided string contains only correct groups
  */
 
 class Solution {
