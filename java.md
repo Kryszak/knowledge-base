@@ -84,3 +84,8 @@ https://www.baeldung.com/java-hashset-vs-treeset
 ## Autoboxing
 https://www.geeksforgeeks.org/autoboxing-unboxing-java/
 
+## LazyInitializationException
+https://www.baeldung.com/hibernate-initialize-proxy-exception#bd-example-for-lazyinitializationexception
+
+## JPA states
+https://prgrmmng.com/jpa-entity-lifecycle-states-transient-managed-detached-removed
