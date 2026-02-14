@@ -4,6 +4,22 @@
 /// NullPointerException
 ```
 
+## string pool
+```java
+public class Main
+{
+	public static void main(String[] args) {
+		var first = new String("test");
+		var second = new String("test");
+		System.out.println(first == second); // false
+		
+		var third = "test";
+		var fourth = "test";
+		System.out.println(third == fourth); // true
+	}
+}
+```
+
 ## integer cache
 ```java
 class Scratch {

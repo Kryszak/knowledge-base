@@ -52,3 +52,6 @@ The principle states that many client-specific interfaces are better than one ge
 
 ### Dependency Inversion Principle
 The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
+
+### High cohesion loose coupling
+https://www.baeldung.com/cs/cohesion-vs-coupling
