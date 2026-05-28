@@ -67,6 +67,58 @@ class Balance(var amount: BigDecimal) {
 }
 ```
 
+```java
+class Bank {
+
+    private final Map<UUID, Balance> balanceStore;
+
+    public Bank(Hashtable<UUID, Balance> balanceStore) {
+        this.balanceStore = balanceStore;
+    }
+
+    public void transfer(UUID fromUserId, UUID toUserId, BigDecimal amount) {
+        UUID minId = fromUserId.compareTo(toUserId) < 0 ? fromUserId : toUserId;
+        UUID maxId = fromUserId.compareTo(toUserId) < 0 ? toUserId : fromUserId;
+
+        Balance minLock = balanceStore.get(minId);
+        if (minLock == null) throw new RuntimeException();
+
+        synchronized (minLock) {
+            Balance maxLock = balanceStore.get(maxId);
+            if (maxLock == null) throw new RuntimeException();
+
+            synchronized (maxLock) {
+                Balance from = balanceStore.get(fromUserId);
+                Balance to = balanceStore.get(toUserId);
+
+                if (from != null) from.decrementBy(amount);
+                if (to != null) to.incrementBy(amount);
+            }
+        }
+    }
+}
+
+class Balance {
+
+    private BigDecimal amount;
+
+    public Balance(BigDecimal amount) {
+        this.amount = amount;
+    }
+
+    public synchronized void incrementBy(BigDecimal amount) {
+        this.amount = this.amount.add(amount);
+    }
+
+    public synchronized void decrementBy(BigDecimal amount) {
+        if (this.amount.compareTo(amount) < 0) {
+            throw new RuntimeException();
+        }
+        this.amount = this.amount.subtract(amount);
+    }
+}
+```
+
 ## Grouping bs
 ```java
 import java.util.List;
