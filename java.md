@@ -2,6 +2,8 @@
 ## concurrency
 https://www.baeldung.com/java-concurrency
 
+https://www.baeldung.com/java-thread-safety
+
 ## hashCode(), equals()
 https://bulldogjob.com/readme/how-not-to-break-your-app-with-hashcode-and-equals
 
