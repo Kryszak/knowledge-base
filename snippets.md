@@ -91,8 +91,8 @@ class Bank {
                 Balance from = balanceStore.get(fromUserId);
                 Balance to = balanceStore.get(toUserId);
 
-                if (from != null) from.decrementBy(amount);
-                if (to != null) to.incrementBy(amount);
+                from.decrementBy(amount);
+                to.incrementBy(amount);
             }
         }
     }
