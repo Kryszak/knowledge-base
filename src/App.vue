@@ -33,7 +33,7 @@ const docs = ref([]);
 const selected = ref(null);
 
 onMounted(async () => {
-  const res = await fetch("/index.json");
+  const res = await fetch("/knowledge-base/index.json");
   docs.value = await res.json();
 
   selected.value = docs.value[0]?.path ?? null;

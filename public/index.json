@@ -1,38 +1,38 @@
 [
   {
     "title": "Architecture",
-    "path": "/docs/architecture.md"
+    "path": "/knowledge-base/docs/architecture.md"
   },
   {
     "title": "CI/CD",
-    "path": "/docs/cicd.md"
+    "path": "/knowledge-base/docs/cicd.md"
   },
   {
     "title": "Devops",
-    "path": "/docs/devops.md"
+    "path": "/knowledge-base/docs/devops.md"
   },
   {
     "title": "Java",
-    "path": "/docs/java.md"
+    "path": "/knowledge-base/docs/java.md"
   },
   {
     "title": "Kotlin",
-    "path": "/docs/kotlin.md"
+    "path": "/knowledge-base/docs/kotlin.md"
   },
   {
     "title": "Messaging",
-    "path": "/docs/messaging.md"
+    "path": "/knowledge-base/docs/messaging.md"
   },
   {
     "title": "persistence",
-    "path": "/docs/persistence.md"
+    "path": "/knowledge-base/docs/persistence.md"
   },
   {
     "title": "Principles",
-    "path": "/docs/principles.md"
+    "path": "/knowledge-base/docs/principles.md"
   },
   {
     "title": "Snippets",
-    "path": "/docs/snippets.md"
+    "path": "/knowledge-base/docs/snippets.md"
   }
 ]
