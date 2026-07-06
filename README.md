@@ -1,17 +1,17 @@
 # Java dev recruitment knowledge base
 
-[Programming principles](./principles.md)
+[Programming principles](public/docs/principles.md)
 
-[Gimmicks](./snippets.md)
+[Gimmicks](public/docs/snippets.md)
 
-[Java](java.md)
+[Java](public/docs/java.md)
 
-[Kotlin](kotlin.md)
+[Kotlin](public/docs/kotlin.md)
 
-[Persistence](persistence.md)
+[Persistence](public/docs/persistence.md)
 
-[Messaging](messaging.md)
+[Messaging](public/docs/messaging.md)
 
-[CI/CD](cicd.md)
+[CI/CD](public/docs/cicd.md)
 
-[Architecture](./architecture.md)
+[Architecture](public/docs/architecture.md)
