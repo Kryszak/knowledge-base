@@ -27,7 +27,7 @@ jobs:
           node-version: 20
           cache: npm
       - name: Create site
-        run: npm run build
+        run: npm run build-only
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
