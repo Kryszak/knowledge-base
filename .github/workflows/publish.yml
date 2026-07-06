@@ -30,7 +30,7 @@ jobs:
         run:
           npm install
       - name: Create site
-        run: npm run build-only
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
