@@ -1,17 +1,2 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1b45de9605324faebcbd9291a20cf299)](https://app.codacy.com/gh/Kryszak/knowledge-base/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 # Java dev recruitment knowledge base
-
-[Programming principles](public/docs/principles.md)
-
-[Gimmicks](public/docs/snippets.md)
-
-[Java](public/docs/java.md)
-
-[Kotlin](public/docs/kotlin.md)
-
-[Persistence](public/docs/persistence.md)
-
-[Messaging](public/docs/messaging.md)
-
-[CI/CD](public/docs/cicd.md)
-
-[Architecture](public/docs/architecture.md)
