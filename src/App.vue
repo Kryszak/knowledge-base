@@ -16,28 +16,24 @@
 
     <!-- CONTENT -->
     <main class="content">
-      <MdFile
-        v-if="selected"
-        :key="selected"
-        :file="selected"
-      />
+      <MdFile v-if="selected" :key="selected" :file="selected" />
     </main>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
-import MdFile from "./components/MdFile.vue";
+import { ref, onMounted } from 'vue'
+import MdFile from './components/MdFile.vue'
 
-const docs = ref([]);
-const selected = ref(null);
+const docs = ref([])
+const selected = ref(null)
 
 onMounted(async () => {
-  const res = await fetch("/knowledge-base/index.json");
-  docs.value = await res.json();
+  const res = await fetch('/knowledge-base/index.json')
+  docs.value = await res.json()
 
-  selected.value = docs.value[0]?.path ?? null;
-});
+  selected.value = docs.value[0]?.path ?? null
+})
 </script>
 
 <style scoped lang="scss">
