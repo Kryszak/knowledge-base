@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, watch } from 'vue'
 import { marked } from 'marked'
 
@@ -23,7 +23,7 @@ const html = ref('')
 const loading = ref(false)
 const error = ref('')
 
-async function loadMarkdown(file) {
+async function loadMarkdown(file: string): Promise<void> {
   loading.value = true
   error.value = ''
   html.value = ''
@@ -32,13 +32,14 @@ async function loadMarkdown(file) {
     const response = await fetch(file)
 
     if (!response.ok) {
-      throw new Error(`Failed to load markdown (${response.status})`)
+      error.value = `Failed to load markdown (${response.status})`
+      return
     }
 
     const markdown = await response.text()
-    html.value = marked.parse(markdown)
+    html.value = await marked.parse(markdown)
   } catch (err) {
-    error.value = err.message
+    error.value = err instanceof Error ? err.message : String(err)
   } finally {
     loading.value = false
   }
@@ -46,7 +47,7 @@ async function loadMarkdown(file) {
 
 watch(
   () => props.file,
-  (newFile) => {
+  (newFile: string) => {
     if (newFile) loadMarkdown(newFile)
   },
   { immediate: true },

@@ -21,12 +21,17 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import MdFile from './components/MdFile.vue'
 
-const docs = ref([])
-const selected = ref(null)
+interface Doc {
+  title: string
+  path: string
+}
+
+const docs = ref<Doc[]>([])
+const selected = ref<string | null>(null)
 
 onMounted(async () => {
   const res = await fetch('/knowledge-base/index.json')
