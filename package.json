@@ -28,7 +28,7 @@
     "eslint-plugin-vue": "~10.12.1",
     "jiti": "^2.7.0",
     "npm-run-all2": "^9.0.4",
-    "prettier": "3.9.10",
+    "prettier": "3.10.1",
     "sass": "^1.108.0",
     "sass-loader": "^17.1.0",
     "typescript": "~6.0.3",
